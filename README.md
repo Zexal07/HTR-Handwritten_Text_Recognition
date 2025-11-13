@@ -32,6 +32,7 @@ This model is designed to be trained on the **Handwritten Name Recognition** dat
 
 1.  **Download:** [Download the dataset here](https://www.kaggle.com/datasets/sagnikbl/handwritten-name-recognition).
 2.  **Structure:** Unzip the files and organize them into the following directory structure in your project's root folder:
+   ```bash
 HTR-Handwritten_Text_Recognition/
 ├── train.py
 ├── continue_train.py
@@ -55,7 +56,7 @@ HTR-Handwritten_Text_Recognition/
 ├── VALIDATION_1.jpg
 ├── VALIDATION_2.jpg
 └── ...
-
+```
 ## Setup and Installation
 
 1.  **Clone the repository:**

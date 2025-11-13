@@ -94,13 +94,14 @@ This script trains the model from scratch for 10 epochs (by default) on a subset
 
 ```bash
 python train.py
-2. Continue Training
+```
+### 2. Continue Training
 After running the initial training, you can use this script to load the saved htr_crnn_mini.pth and continue training for 50 additional epochs.
 
-Bash
-
+```bash
 python continue_train.py
-3. Inference (Prediction)
+```
+### 3. Inference (Prediction)
 This script uses the trained htr_crnn_mini.pth to perform predictions.
 
 A. Batch Prediction (Default)
@@ -111,9 +112,9 @@ Run predictions on all images in the test_v2/test/ directory.
 
 Save the results to an output/ folder (predictions.csv and predictions.txt).
 
-Bash
-
+```bash
 python predict.py
+```
 B. Single Image Prediction
 
 To predict a single image, you need to edit the predict.py file:
@@ -125,7 +126,7 @@ Uncomment the "Single image" block.
 Change the path to your desired image.
 
 Python
-
+```bash
 if __name__ == "__main__":
     print("=" * 60)
     print("CRNN MODEL - TESTING/INFERENCE")
@@ -149,11 +150,11 @@ if __name__ == "__main__":
         model_path=Config.MINI_MODEL_PATH,
         image_path="path/to/your/image.png"  # <-- CHANGE THIS PATH
     )
-    
+  ```  
 Then, run the script:
 
-Bash
-
+```bash
 python predict.py
+```
 License
 This project is not licensed.

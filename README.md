@@ -28,9 +28,9 @@ The repository includes scripts for:
 
 ## Dataset
 
-This model is designed to be trained on the **Handwritten Name Recognition** dataset from Kaggle.
+This model is designed to be trained on the **Handwriting Recognition** dataset from Kaggle.
 
-1.  **Download:** [Download the dataset here](https://www.kaggle.com/datasets/sagnikbl/handwritten-name-recognition).
+1.  **Download:** [Download the dataset here](https://www.kaggle.com/datasets/landlord/handwriting-recognition).
 2.  **Structure:** Unzip the files and organize them into the following directory structure in your project's root folder:
    ```bash
 HTR-Handwritten_Text_Recognition/

@@ -157,5 +157,5 @@ Then, run the script:
 ```bash
 python predict.py
 ```
-License
-This project is not licensed.
+## License
+This project is licensed under MIT.
